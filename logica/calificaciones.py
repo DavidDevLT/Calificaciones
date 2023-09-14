@@ -15,4 +15,4 @@ class Calificaciones():
         return rango
 
     def imprimirReporte(self):
-        print(f'El rango de su nota es: {Calificaciones.rangoCalificaciones(self)}.')
+        print(f'La calificación es: {Calificaciones.rangoCalificaciones(self)}.')
